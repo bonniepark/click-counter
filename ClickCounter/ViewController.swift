@@ -11,7 +11,7 @@ class ViewController: UIViewController {
     
     // count and label properties
     var count = 0
-    var label: UILabel!
+    @IBOutlet var label: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
